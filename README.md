@@ -6,7 +6,7 @@ By David Serrano-Lozano, Francisco A. Molina-Bakhos, Danna Xue, Yixiong Yang, Ma
 <br>
 Computer Vision Center and Universitat Autònoma de Barcelona
 
-[![Paper](https://img.shields.io/badge/PaperSoon-CVPRW%202025-blue)](https://github.com/davidserra9/promptnorm)
+[![Paper](https://img.shields.io/badge/CVPRW-Paper%202025-blue)](https://openaccess.thecvf.com/content/CVPR2025W/NTIRE/papers/Serrano-Lozano_PromptNorm_Image_Geometry_Guides_Ambient_Light_Normalization_CVPRW_2025_paper.pdf)
 
 ![promptnorm_teaser](./img/promptnorm_teaser.png)
 
