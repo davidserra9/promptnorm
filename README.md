@@ -60,7 +60,7 @@ This script takes all the image in the ambient6k test folder and saves the outpu
 
 |             | PSNR ↑  | SSIM ↑ | Images  |
 |-------------|---------|--------|---------|
-| PromptNorm  | 22.116  | 0.822  | [Download](aaa) |
+| PromptNorm  | 22.116  | 0.822  | [Download](https://cvcuab-my.sharepoint.com/:u:/g/personal/dserrano_cvc_uab_cat/IQDLF0HuDv-jQ79-enPSiFBCAaofSVlRz2OKOkfPQjp2be8?e=nWU0b0) (1GB)|
 
 ## Acknowledgements
 
