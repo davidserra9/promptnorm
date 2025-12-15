@@ -47,7 +47,15 @@ python train.py
 ```
 
 ## 🚀 Inference
-Fist, download the pretraind model [here](https://github.com/davidserra9/promptnorm/releases/download/v1.0/promptnorm.ckpt) and place it in the ```pretrained_ckpt``` folder.
+First, download the pretraind model [here](https://github.com/davidserra9/promptnorm/releases/download/v1.0/promptnorm.ckpt) and place it in the ```pretrained_ckpt``` folder.
+
+If you want to replicate our results, download our surface normal maps. We used Depth Anything V2 to obtain the depth maps of all the input images and then computed the normals by calculating the gradient. If you want to retrain our model or use surface normals for your own architecture or another low-level task, I would recommend computing the normals directly using an image-to-normals model (e.g., Marigold).
+
+|        | Depth Maps | Surface Normals |
+|--------|---------|--------|
+| Train  | [Download](https://datasets.cvc.uab.cat/color/ambient6k_train_depth.zip) (1.6GB)  | [Download](https://datasets.cvc.uab.cat/color/ambient6k_train_normal.zip) (6.5GB)  |
+| Test   | [Download](https://datasets.cvc.uab.cat/color/ambient6k_test_depth.zip) (69MB)  | [Download](https://datasets.cvc.uab.cat/color/ambient6k_test_normal.zip) (293MB)  |
+
 
 Again, modify the configurations of the ```options.py``` file and run the following command:
 
